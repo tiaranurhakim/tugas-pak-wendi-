@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author adity
+ * @author andry
  */
 public class Koneksi {
     public static Connection GetConnection() {

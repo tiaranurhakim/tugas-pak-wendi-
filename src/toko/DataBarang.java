@@ -13,7 +13,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author winda
+ * @author andry
  */
 
 public class DataBarang extends javax.swing.JFrame {
@@ -210,6 +210,8 @@ public class DataBarang extends javax.swing.JFrame {
         });
         jPanel1.add(cb_barang, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 50, -1, -1));
 
+        jButton1.setBackground(new java.awt.Color(255, 255, 51));
+        jButton1.setForeground(new java.awt.Color(255, 102, 51));
         jButton1.setText("Simpan");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -218,6 +220,7 @@ public class DataBarang extends javax.swing.JFrame {
         });
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 50, -1, -1));
 
+        jButton2.setBackground(new java.awt.Color(255, 0, 0));
         jButton2.setText("Hapus");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -226,6 +229,8 @@ public class DataBarang extends javax.swing.JFrame {
         });
         jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 90, 70, -1));
 
+        jButton3.setBackground(new java.awt.Color(0, 0, 0));
+        jButton3.setForeground(new java.awt.Color(51, 51, 255));
         jButton3.setText("Batal");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -255,7 +260,8 @@ public class DataBarang extends javax.swing.JFrame {
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 350, 530, 190));
 
         jLabel1.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 204, 255));
         jLabel1.setText("DATA BARANG");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, -1, -1));
         jPanel1.add(date_masuk, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 250, -1, -1));

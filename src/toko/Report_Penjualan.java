@@ -21,7 +21,7 @@ import java.awt.Font;
 
 /**
  *
- * @author winda
+ * @author andry
  */
 public class Report_Penjualan extends javax.swing.JFrame {
 
@@ -220,6 +220,7 @@ public class Report_Penjualan extends javax.swing.JFrame {
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jButton1.setBackground(new java.awt.Color(255, 102, 51));
         jButton1.setText("Export");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -228,6 +229,7 @@ public class Report_Penjualan extends javax.swing.JFrame {
         });
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 280, -1, -1));
 
+        jButton2.setBackground(new java.awt.Color(255, 0, 51));
         jButton2.setText("Cetak");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -252,7 +254,8 @@ public class Report_Penjualan extends javax.swing.JFrame {
         jPanel1.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 750, 220));
 
         jLabel1.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 255, 255));
         jLabel1.setText("REPORT  PENJUALAN");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
 

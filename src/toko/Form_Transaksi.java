@@ -18,7 +18,7 @@ import javax.swing.Timer;
 
 /**
  *
- * @author adity
+ * @author andry
  */
 public class Form_Transaksi extends javax.swing.JFrame {
 
@@ -191,7 +191,8 @@ public class Form_Transaksi extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 255, 255));
         jLabel1.setText("MY CASSEER");
 
         tbl_barang.setBackground(new java.awt.Color(204, 204, 204));
@@ -208,7 +209,7 @@ public class Form_Transaksi extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tbl_barang);
 
-        jButton1.setBackground(new java.awt.Color(204, 204, 204));
+        jButton1.setBackground(new java.awt.Color(0, 255, 51));
         jButton1.setText("Beli");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -216,7 +217,7 @@ public class Form_Transaksi extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(204, 204, 204));
+        jButton2.setBackground(new java.awt.Color(255, 0, 0));
         jButton2.setText("Batal");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -252,7 +253,7 @@ public class Form_Transaksi extends javax.swing.JFrame {
 
         o_total_harga.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
 
-        panel1.setBackground(new java.awt.Color(204, 204, 204));
+        panel1.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel3.setText("ID Barang    :");
 
@@ -352,7 +353,7 @@ public class Form_Transaksi extends javax.swing.JFrame {
 
         jLabel12.setText("Rp.");
 
-        jButton3.setBackground(new java.awt.Color(204, 204, 204));
+        jButton3.setBackground(new java.awt.Color(51, 51, 255));
         jButton3.setText("Tambah");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -491,7 +492,7 @@ public class Form_Transaksi extends javax.swing.JFrame {
                             .addComponent(jLabel6)
                             .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(o_kembali, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(32, Short.MAX_VALUE))
+                .addContainerGap(22, Short.MAX_VALUE))
         );
 
         pack();

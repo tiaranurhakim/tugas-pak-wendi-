@@ -12,7 +12,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author winda
+ * @author andry
  */
 public class Inventaris extends javax.swing.JFrame {
 
@@ -29,7 +29,6 @@ public class Inventaris extends javax.swing.JFrame {
     }
 
     public static String formatRupiah(double amount) {
-        // Buat NumberFormat untuk format Rupiah
         NumberFormat numberFormat = NumberFormat.getCurrencyInstance(new Locale("id", "ID"));
         return numberFormat.format(amount);
     }
@@ -238,16 +237,18 @@ public class Inventaris extends javax.swing.JFrame {
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 140, 660, 210));
 
+        jButton1.setBackground(new java.awt.Color(51, 51, 255));
         jButton1.setText("Cari");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 40, -1, -1));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 40, -1, -1));
 
         jLabel1.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tw Cen MT", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(51, 255, 255));
         jLabel1.setText("INVENTARIS BARANG");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 30));
 

@@ -6,7 +6,7 @@ package toko;
 
 /**
  *
- * @author adity
+ * @author andry
  */
 public class Toko {
 
@@ -14,7 +14,6 @@ public class Toko {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         new DataBarang().show();
     }
     
